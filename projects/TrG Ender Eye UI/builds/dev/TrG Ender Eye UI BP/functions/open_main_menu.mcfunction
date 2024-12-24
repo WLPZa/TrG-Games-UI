@@ -1,0 +1,1 @@
+execute @p ~ ~ ~ run client_entity @s spawn custom:main_menu

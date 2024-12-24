@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "custom:main_menu",
+			"geometry": {
+				"default": "geometry.humanoid"
+			},
+			"materials": {
+				"default": "material.default"
+			},
+			"textures": {
+				"default": "textures/gui/menu"
+			}
+		},
+		"components": {
+			"minecraft:container": {
+				"sections": [
+					{
+						"button_text": "Warps",
+						"action": "open_warps_menu"
+					},
+					{
+						"button_text": "Shop",
+						"action": "open_shop_menu"
+					},
+					{
+						"button_text": "Bank",
+						"action": "open_bank_menu"
+					},
+					{
+						"button_text": "Clans",
+						"action": "open_clans_menu"
+					},
+					{
+						"button_text": "Daily Rewards",
+						"action": "tp_daily_rewards"
+					},
+					{
+						"button_text": "Settings",
+						"action": "open_settings_menu"
+					}
+				]
+			}
+		}
+	}
+}

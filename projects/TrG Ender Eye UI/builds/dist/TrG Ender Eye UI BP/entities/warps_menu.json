@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "custom:warps_menu",
+			"geometry": {
+				"default": "geometry.humanoid"
+			},
+			"materials": {
+				"default": "material.default"
+			},
+			"textures": {
+				"default": "textures/gui/warps"
+			}
+		},
+		"components": {
+			"minecraft:container": {
+				"sections": [
+					{
+						"button_text": "Game Menu",
+						"action": "open_game_menu"
+					},
+					{
+						"button_text": "Achievements",
+						"action": "tp_achievements"
+					},
+					{
+						"button_text": "Parkour",
+						"action": "tp_parkour"
+					},
+					{
+						"button_text": "WarZone",
+						"action": "not_ready"
+					},
+					{
+						"button_text": "Limited Time Event",
+						"action": "no_active_event"
+					},
+					{
+						"button_text": "Back to Spawn",
+						"action": "tp_back_to_spawn"
+					}
+				]
+			}
+		}
+	}
+}

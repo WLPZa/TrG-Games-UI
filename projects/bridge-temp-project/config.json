@@ -1,0 +1,35 @@
+{
+	"type": "minecraftBedrock",
+	"name": "bridge",
+	"namespace": "bridge",
+	"authors": [],
+	"targetVersion": "1.21.50",
+	"description": "",
+	"experimentalGameplay": {},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "bridge"
+				}
+			]
+		]
+	}
+}

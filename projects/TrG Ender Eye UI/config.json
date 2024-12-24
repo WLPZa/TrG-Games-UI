@@ -1,0 +1,46 @@
+{
+	"type": "minecraftBedrock",
+	"name": "TrG Ender Eye UI",
+	"namespace": "TrG_EE_UI",
+	"authors": [
+		"Zain"
+	],
+	"targetVersion": "1.21.50",
+	"description": "This is the official UI fir TrG Games.\nIt comes with built in features which you can configure anytime you want.\nRealm Code: Fohn8rEnoDo\n- Made by WLPZaBest10",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"focusTargetCamera": false,
+		"dataDrivenJigsawStructures": false,
+		"aimAssist": false,
+		"educationEdition": false
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "TrG Ender Eye UI"
+				}
+			]
+		]
+	}
+}

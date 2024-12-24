@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Zain"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.42"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "TrG Ender Eye UI",
+		"description": "This is the official UI fir TrG Games.\nIt comes with built in features which you can configure anytime you want.\nRealm Code: Fohn8rEnoDo\n- Made by WLPZaBest10",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "fbac4b68-d6d0-413e-a1e6-a583a0048b91",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "f68fe37e-1609-4878-9fae-17af3adcf107",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

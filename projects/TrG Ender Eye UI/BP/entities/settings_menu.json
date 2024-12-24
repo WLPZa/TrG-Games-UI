@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "custom:settings_menu",
+      "geometry": {
+        "default": "geometry.humanoid"
+      },
+      "materials": {
+        "default": "material.default"
+      },
+      "textures": {
+        "default": "textures/gui/settings_menu"
+      }
+    },
+    "components": {
+      "minecraft:container": {
+        "sections": [
+          {
+            "button_text": "Notifications",
+            "action": "notifications"
+          },
+          {
+            "button_text": "Unknown",
+            "action": "unknown"
+          },
+          {
+            "button_text": "Night Vision",
+            "action": "night_vision"
+          }
+        ]
+      }
+    }
+  }
+}
