@@ -29,10 +29,6 @@
             "action": "open_bank_menu"
           },
           {
-            "button_text": "Clans",
-            "action": "open_clans_menu"
-          },
-          {
             "button_text": "Daily Rewards",
             "action": "tp_daily_rewards"
           },
