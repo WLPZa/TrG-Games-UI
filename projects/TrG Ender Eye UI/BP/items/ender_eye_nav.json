@@ -27,7 +27,7 @@
             "minecraft:interact_with": {
                 "run_command": {
                     "command": [
-                        "execute @p ~ ~ ~ function open_main_menu"
+                        "execute as @p ~ ~ ~ function open_main_menu"
                     ]
                 }
             }
