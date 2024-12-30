@@ -18,7 +18,7 @@
         "sections": [
           {
             "button_text": "Warps",
-            "action": "open_warps_menu"
+            "action": "warps_menu"
           },
           {
             "button_text": "Shop",
